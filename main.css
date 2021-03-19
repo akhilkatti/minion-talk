@@ -4,4 +4,32 @@
 }
 body {
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
+}
+
+.header {
+    width: 80%;
+    /* height: 80px; */
+    margin-bottom: 10px;
+}
+.main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main textarea {
+    
+}
+
+.main button {
+
+}
+
+#output {
+    border: 1px solid black;
+    width: 500px;
+    height: 10vh;
 }
