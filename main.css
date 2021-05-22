@@ -1,35 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 50px;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 50px;
 }
 
 .header {
-    width: 80%;
-    /* height: 80px; */
-    margin-bottom: 10px;
+  width: 80%;
+  /* height: 80px; */
+  margin-bottom: 10px;
 }
-.main{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main textarea {
-    
+  width: 50%;
 }
 
-.main button {
-
+#btn-submit {
+  padding: 10px;
+  margin-top: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #output {
-    border: 1px solid black;
-    width: 500px;
-    height: 10vh;
+  border: 1px solid black;
+  width: 500px;
+  height: 10vh;
 }
